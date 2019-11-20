@@ -1,0 +1,59 @@
+*{
+    font-family: 'Alatsi', sans-serif;
+}
+
+#caja{
+    padding-top: 20px;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+#nombre{
+    border: solid 1px;
+    width: 97%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#mensaje{
+    width: 97%;
+    height: 100px;
+    border: solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#mensajes{
+    margin-top: -30px;
+    padding-left: 5px;
+}
+
+#hMensaje, #pContenido{
+    display: inline-block;
+}
+
+#hMensaje{
+    color: rgb(0, 172, 0);
+}
+
+#pContenido{
+    margin-left: 3px;
+}
+
+.btEnviar{
+    width: 100%;
+    background: rgb(0, 190, 0);
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.ventana{
+    border: solid;
+    width: 100%;
+}
